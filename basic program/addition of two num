@@ -1,1 +1,13 @@
-
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"Program for the addition of two nums"<<endl;
+	int a ,b ,c;
+	cout<<"enter 1st value :"<<endl;
+	cin>>a;
+	cout<<"enter 2nd value :"<<endl;
+	cin>>b;
+	c = a + b;
+	cout<<"the addtion of these two number is : "<<c;
+}
