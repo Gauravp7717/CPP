@@ -2,6 +2,9 @@
 using namespace std;
 int main()
 {
-  int arr[15]={1,2,3,6,5,4,8,9,};
-  cout<<"the array is :"<<arr;
+	int i;
+  int arr[15]={1,2,3,6,5,4,8,9,10,45,78,45,4};
+  for(i= 0;i<15;i++){
+  cout<<arr[i]<<endl;
+}
 }
