@@ -1,1 +1,39 @@
+// code for the addition of the element in array at choosen loaction
 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int arr[100],n,location,x;
+	
+	cout<<"\n how many elements you want to add in the array";
+	cin>>n;
+	
+	for (int i= 0;i<n;i++)
+	{
+		cin>>arr[i];
+	}
+	
+	cout<<"\n the element you want to add in the array ";
+	cin>>x;
+	
+	
+	cout<<"\n at which location do you want to insert ?";
+	cin>>location;
+	
+	for(int i=n;i>=location;i--)
+	{
+		arr[i+1] = arr[i];
+		
+	}
+	
+	arr[location] = x;
+	
+	
+	for (int i =0;i<n+1;i++)
+	{
+		cout<<arr[i]<<endl;
+	}
+	
+}
