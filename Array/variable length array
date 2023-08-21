@@ -1,1 +1,11 @@
+//variable lenght array
 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int arr[15]={1,23,4,5,6,7,8,9};
+	int size = sizeof(arr) / sizeof(arr[0]);
+	cout<<size;
+}
