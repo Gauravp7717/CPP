@@ -1,1 +1,23 @@
-
+// code for if else statement
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"check the age is greater than 18 or not :";
+	cout<<endl;
+	
+	int age ;
+	
+	cout<<"enter the age which you want to check :";
+	cout<<endl;
+	cin>>age;
+	
+	if(age>18){
+		cout<<"the age is greater than 18.";
+		
+	}
+	else{
+		cout<<"the age is less than 18.";
+	}
+	cout<<endl;
+}
