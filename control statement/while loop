@@ -1,1 +1,14 @@
+// while loop 
 
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"print the roll no from 1 to 20  using while loop ."<<endl;
+	int i = 1;
+	while (i < 20) {
+  	cout << i << "\n";
+  	i++;
+}
+	
+}
