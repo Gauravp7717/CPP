@@ -1,1 +1,21 @@
+//nasted if statement
 
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"check the age for PAN card  "<<endl;
+	int age;
+	cin>>age;
+	
+	if(age>0){
+		if(age>=18){
+			cout<<"you are eligible for PAN ."<<endl;
+		}
+		else{
+			cout<<"you are not eligible for PAN card."<<endl;
+		}
+	}
+	
+	
+}
