@@ -1,1 +1,23 @@
 
+// this is the program for the switch case statement 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int num ;
+	cout<<"enter number :"<<endl;
+	cin>>num;
+	
+	switch(num){
+		case 1 :
+			cout<<"number is matched with 1";
+			break;
+		case 2:
+			cout<<"the number is match with 2";
+			break;
+		default:
+			cout<<"the number is not match with any option.";
+			break;
+	}
+}
