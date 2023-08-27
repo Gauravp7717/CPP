@@ -1,1 +1,78 @@
+// all comparision operator 
 
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x,y;
+	cout<<"enter the value of x :";
+	cout<<endl;
+	cin>>x;
+	
+	cout<<"enter the value of y :";
+	cout<<endl;
+	cin>>y;
+	
+	cout<<"equal to operator  :";
+	cout<<endl;
+	if(x==y){
+		cout<<"yes it is equal";
+	}
+	else{
+		cout<<"no it is not ";
+	}
+	cout<<endl;
+	
+	cout<<"unequal to operator  :";
+	cout<<endl;
+	if(x!=y){
+		cout<<"yes it is not equal";
+	}
+	else{
+		cout<<"no it is equal ";
+	}
+	
+	cout<<endl;
+	
+	cout<<"is x greater than y :";
+	cout<<endl;
+	if(x>y){
+		cout<<"yes ";
+	}
+	else{
+		cout<<"no  ";
+	}
+	
+	cout<<endl;
+	
+	cout<<"is y greater than x :";
+	cout<<endl;
+	if(x<y){
+		cout<<"yes ";
+	}
+	else{
+		cout<<"no  ";
+	}
+	
+	cout<<endl;
+	
+	cout<<"is x greater equals to than y :";
+	cout<<endl;
+	if(x>=y){
+		cout<<"yes ";
+	}
+	else{
+		cout<<"no  ";
+	}
+	
+	cout<<endl;
+	
+	cout<<"is y greater equals to than x :";
+	cout<<endl;
+	if(x<=y){
+		cout<<"yes ";
+	}
+	else{
+		cout<<"no  ";
+	}
+}
