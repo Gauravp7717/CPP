@@ -1,1 +1,32 @@
+// arithmetic operators 
 
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,sum,mult,div,sub;
+	cout<<"value for the a :";
+	cin>>a;
+	cout<<endl;
+	cout<<"value for the b :";
+	cin>>b;
+	cout<<endl;
+	
+	cout<<"arithmetic operator add a+b :";
+	cout<<a+b;
+	cout<<endl;
+	
+	cout<<"arithmetic operator sub a-b :";
+	cout<<a-b;
+	cout<<endl;
+	
+	cout<<"arithmetic operator div a/b :";
+	cout<<a/b;
+	cout<<endl;
+	
+	cout<<"arithmetic operator mult a+b :";
+	cout<<a*b;
+	cout<<endl;
+	
+	
+}
